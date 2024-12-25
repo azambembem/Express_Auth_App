@@ -4,7 +4,7 @@ const { default: mongoose } = require("mongoose");
 const PORT = 4000;
 mongoose
   .connect(
-    `mongodb+srv://hohoho:azam1020@express-cluster.9f7s8.mongodb.net/` // hohoho ni yonida passwordni berish kerak! mongo db ulash uchun
+    `mongodb+srv://hohoho:happy1998@express-cluster.9f7s8.mongodb.net/` // hohoho ni yonida passwordni berish kerak! mongo db ulash uchun
   )
   .then(() => {
     console.log("Connected to MongoDB!");
